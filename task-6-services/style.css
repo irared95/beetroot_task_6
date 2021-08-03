@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 55px 0 65px;
+}
+
+.services-list {
+    list-style: none;
+    text-align: center;
+}
+
+.services-item {
+    display: inline-block;
+    max-width: 260px;
+    margin: 0 50px;
+}
+
+.services-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+    border-radius: 65%;
+    border: 2px solid #2a69a6;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.services-img:hover {
+    background-color: #2a69a6;
+    border: 2px solid #2a69a6;
+}
+
+.services-img-mobile {
+    background-image: url('./img/Mobile-blue.png');
+}
+
+.services-img-mobile:hover {
+    background-image: url('./img/Mobile-white.png');
+}
+
+.services-img-settings {
+    background-image: url('./img/Settings-blue.png');
+}
+
+.services-img-settings:hover {
+    background-image: url('./img/Settings.png');
+}
+
+.services-img-dashboard {
+    background-image: url('./img/Dashboard-blue.png');
+}
+
+.services-img-dashboard:hover {
+    background-image: url('./img/Dashboard.png');
+}
+
+.services-title {
+    font-family: Proxima Nova Regular, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.services-desc {
+    font-family: Proxima Nova Light, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9d9d9d;
+}
